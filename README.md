@@ -1,6 +1,6 @@
-    The URL of the functional, deployed application:https://github.com/anitapeppercorn/Weather-Dashboard-Application
+    The URL of the functional, deployed application:https://github.com/anitapeppercorn/personal-open-weather-api-dashboard
 
-    The URL of the GitHub repository: https://anitapeppercorn.github.io/Weather-Dashboard-Application/
+    The URL of the GitHub repository: https://anitapeppercorn.github.io/personal-open-weather-api-dashboard/
     
 ## README describing the project.
 
