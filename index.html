@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+   <title>Weather Dashboard</title>
+ 
+   <!-- link to get bootstrap -->
+   <link
+   rel="stylesheet"
+   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+   crossorigin="anonymous"
+   />
+   <!-- link to get special fonts and icon -->
+   <link
+   rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+   crossorigin="anonymous"
+   />
+ 
+   <!-- link to CSS stylesheet -->
+   <link
+   rel="stylesheet"
+   href="weather.css"
+   />
+ 
+</head>
+ 
+<body>
+       <nav class="text-center text-white bg-primary p-2">
+           <h1> My Weather Dashboard </h1>
+           <h6> created by Anita Ganti </h6>
+       </nav>
+ 
+   <div class = "container-fluid">
+       <div class="row">
+           <!-- search panel -->
+           <div id = "search-bar" class="col-lg-3">
+               <form class="form-inline">
+                   <div class="form-group mb-2">
+                     <label for="staticEmail2" class="sr-only">Email</label>
+                     <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Search city:">
+                   </div>
+                   <div class="form-group mx-sm-3 mb-2">
+                     <label for="inputPassword2" class="sr-only"> </label>
+                     <input id="cityWeather-input" class="form-control"  placeholder="City name">
+                   </div>
+                   <button
+                       type="submit"
+                       id="getWeatherInformationfor-city-button"
+                       class="btn btn-primary mb-2"> Confirm 
+                        <i class="fas fa-search"></i> <!-- Icon-->
+                   </button>
+               </form>
+ 
+               <div id = "search-history" class="btn-group-vertical"></div>
+           </div>
+          
+           <!-- information section -->
+           <div class="col-lg-9">
+               <div class="jumbotron">
+                   <div>
+                       <div class="city"></div>
+                       <div class="temperature"></div>
+                       <div class="humidity"></div>
+                       <div class="wind-speed"></div>
+                       <div class="uv-index"></div>
+ 
+                   </div>
+               </div>
+ 
+               <div>
+                   <h3>5 Day Forecast:</h3>
+                   <!-- weather forecast card -->
+                   <div id="forecast" class="card-deck"></div>
+               </div>
+ 
+           </div>
+       </div>
+   </div>
+ 
+   <!-- link to jquery -->
+   <script
+       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+   </script>
+   <!-- link to font awesome -->
+   <script
+       src="https://kit.fontawesome.com/326ee3d75f.js"
+       crossorigin="anonymous">
+   </script>
+   <!-- link to Moment.js -->
+   <script
+       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
+   </script>
+   <!-- link to application script -->
+   <script
+       src="./weatherscript.js">
+   </script>
+</body>
+ 
+</html>
