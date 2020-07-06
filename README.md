@@ -2,7 +2,7 @@
   # The URL of the functional, deployed application:https://github.com/anitapeppercorn/personal-open-weather-api-dashboard
   # The URL of the GitHub repository: https://anitapeppercorn.github.io/personal-open-weather-api-dashboard/
   
-  #personal-open-weather-api-dashboard/Screen Shot 2020-07-06 at 2.39.49 PM.png
+  # personal-open-weather-api-dashboard/Screen Shot 2020-07-06 at 2.39.49 PM.png
   
   #### README describing the project.Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. I have been tasked with retrieving data from another application's API and using it in the context of my own to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.I have been asked to use the OpenWeather API (Links to an external site: https://openweathermap.org/api) to retrieve weather data for cities.  I have used localStorage to store persistent data.
   
